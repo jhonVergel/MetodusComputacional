@@ -49,6 +49,7 @@ os.chdir("./perturbada")
 os.system("convert -delay 20 -loop 0 *.jpg cuerdaPerturbada.gif")
 
 os.chdir("..")
+
 os.chdir("./fijas")
 os.system("convert -delay 20 -loop 0 *.jpg cuerdaFija.gif")
 os.chdir("..")
